@@ -1,0 +1,255 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Riskcalm 
+ * @author      - 
+ * @created_by  - Joy
+ * @created_at  - 
+ * @modified_by -
+ */
+
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* fonts import -END */
+
+/* reset, root */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: "Nunito", sans-serif !important;
+}
+
+:root {
+    --primary-main: #2C5AA0;
+    --primary-light: #EBF3FF;
+    --secondary-main: #4EB9FE;
+    --secondary-light: #E9F6FF;
+    --dark-900: #162D50;
+    --dark-800: #4F5F79;
+    --dark-700: #7E8B9E;
+    --dark-600: #96A1B1;
+    --dark-500: #AEB6C2;
+    --dark-400: #C6CCD5;
+    --dark-300: #DEE1E6;
+    --dark-200: #EFF0F3;
+    --dark-100: #F6F7F8;
+    --status-info: #409CF0;
+    --status-info-light: #E9F4FF;
+    --status-success: #49B661;
+    --status-success-light: #E5FAE9;
+    --status-warning: #F3E245;
+    --status-warning-light: #F4F2DE;
+    --status-danger: #E82C2C;
+    --status-danger-light: #FFEFEF;
+   
+}
+
+/* reset, root - END */
+
+// container resize
+.container {
+    @media (min-width: 1400px) {
+        max-width: 1380px;
+    }
+}
+.nav-container {
+        max-width: 1920px;
+        padding: 0 24px;
+        width: 100%;
+        margin: auto;
+}
+
+// container resize - end
+
+/* helper , base classes */
+
+// text-color
+.text-clr-teal {
+    color: var(--teal);
+}
+
+.text-clr-darkTeeal {
+    color: var(--darkTeal);
+}
+
+.text-clr-blue {
+    color: var(--blue);
+}
+
+.text-clr-deepBlue {
+    color: var(--deepBlue);
+}
+
+.text-clr-paleBlue {
+    color: var(--paleBlue);
+}
+
+.text-clr-ash {
+    color: var(--ash);
+}
+
+.text-clr-yellow {
+    color: var(--yellow);
+}
+
+.text-clr-lightBlue {
+    color: var(--lightBlue);
+}
+
+.text-clr-gray {
+    color: var(--gray);
+}
+
+.text-clr-danger {
+    color: var(--danger);
+}
+
+.text-clr-dark-1 {
+    color: var(--dark-1);
+}
+
+.text-clr-dark-2 {
+    color: var(--dark-2);
+}
+
+.text-clr-purple {
+    color: var(--purple);
+}
+
+.text-clr-dark1 {
+    color: var(--dark1);
+}
+
+.text-clr-dark-2 {
+    color: var(--dark2);
+}
+
+
+.text-clr-purple {
+    color: var(--purple);
+}
+
+.text-clr-danger-shadow {
+    color: var(--danger-shadow);
+}
+
+// BG color
+.bg-clr-teal {
+    background-color: var(--teal);
+}
+
+
+
+.fs-40 {
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.fs-32 {
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.fs-24 {
+    font-size: 24px;
+    line-height: 130%;
+}
+.fs-p-24 {
+    font-size: 24px;
+    line-height: 150%;
+}
+.fs-20 {
+    font-size: 20px;
+    line-height: 130%;
+}
+.fs-p-20 {
+    font-size: 20px;
+    line-height: 150%;
+}
+.fs-p-16 {
+    font-size: 16px;
+    line-height: 150%;
+}
+.fs-p-14 {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.fs-16 {
+    font-size: 16px;
+    line-height: 130%;
+}
+.fs-p-18 {
+    font-size: 16px;
+    line-height: 150%;
+}
+.fs-14 {
+    font-size: 14px;
+    line-height: 130%;
+}
+
+
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semi-bold {
+    font-weight: 600;
+}
+.fw-extra-bold {
+    font-weight: 800;
+}
+
+.box-shadow1 {
+    box-shadow: 0px 30px 40px 0px rgba(22, 45, 80, 0.08);
+}
+
+.radius-12 {
+    border-radius: 12px;
+}
+
+.radius-16 {
+    border-radius: 16px;
+}
+
+.h-52 {
+    height: 52px;
+}
+
+.border-top-d {
+    border-top: 1px solid #cbd8dc;
+}
+
+a {
+    transition: 0.2s all linear;
+
+    &:hover {
+        color: #009fd3;
+    }
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+
+    @media (max-width: 550px) {
+        padding-bottom: 40px;
+    }
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.section-header {
+    max-width: 890px;
+    width: 100%;
+}
+
+/* helper , base classes  - END*/
